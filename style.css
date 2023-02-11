@@ -1,0 +1,121 @@
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background:#2AB6BB;
+	justify-content:center;
+	display: flex;
+}
+.container{
+	position: relative;
+	width:100%;
+	max-width: 1000px;
+	min-height: auto;
+	background:white;
+	margin: 40px;
+}
+<!-- header to mail part -->
+.header{
+	position: relative;
+	width:100%;
+	height:auto;
+	background:White;
+	padding:10px;
+}
+.mtext{
+	width:100%;
+	height:auto;
+	position: relative;
+	background:white;
+}
+.mtext h2{
+	width:100%;
+	height:auto;
+	text-align: center;
+	position: relative;
+	padding:0px;
+	margin-top:0px;
+	margin-bottom:0px;
+}
+.stext{
+	width:100%;
+	height:auto;
+	position: relative;
+	background:white;
+}
+.stext h2{
+	width:100%;
+	height:auto;
+	text-align:left;
+	margin-left: 5px;
+	position: relative;
+	padding:0px;
+	margin-top:0px;
+	margin-bottom:0px;
+}
+.stext p{
+	width:100%;
+	height:auto;
+	text-align:left;
+	position: relative;
+	padding:0px;
+	margin-top:0px;
+	margin-left: 5px;
+	margin-bottom:4px;
+}
+<!-- bodypart -->
+.bodypart{
+	position: relative;
+	width:auto;
+	height:auto;
+	background:White;
+	padding:10px;
+	
+}
+.p1{
+	width:auto;
+	height:auto;
+	position:relative;
+	background:#7FC5EF;
+}
+.p1 h2{
+	width:100%;
+	height:auto;
+	text-align: left;
+	position: relative;
+	padding:0px;
+	margin-top:0px;
+	margin-bottom:0px;
+}
+.p2{
+	width:100%;
+	height:auto;
+	position: relative;
+	background:white;
+}
+.p2 p{
+	width:100%
+	height:auto;
+	text-align:left;
+	position: relative;
+	padding:0px;
+	margin-top:5px;
+	margin-left: 5px;
+	margin-bottom:0x;
+}
+.p2 table, td, th {
+	margin-left:10px;
+	margin-top:10px;
+	margin-bottom:10px;
+	border-collapse: collapse;
+	border-spacing: 0;
+	text-align: center;
+	padding: 8px;
+	border: 1px solid #ddd;
+}
+.child {	
+	display: inline-block;
+	margin-left:10px;
+}
